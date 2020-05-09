@@ -28,7 +28,7 @@ const SET_PEDIDO_TICKET = gql`
 
 const Tickets = () => {
   const [show, setShow] = useState(false);
-  const [MutationTicket, { dataMutation }] = useMutation(SET_PEDIDO_TICKET);
+  const [MutationTicket] = useMutation(SET_PEDIDO_TICKET);
   const [responseTicket, setReponseTicket] = useState("");
   const [userData, setData] = useState({
     tipo_ticket: "",
