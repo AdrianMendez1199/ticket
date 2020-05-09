@@ -9,7 +9,7 @@
    * create base de datos con script.sql
 
   ``` sh 
-    * git clone url
+    * git clone git@github.com:AdrianMendez1199/ticket.git
     
     * cd ticket
     
@@ -21,7 +21,7 @@
 
   ```
 
-  # Iniciar Servicio
+  # Iniciar App
   * serve -s build
 
  
